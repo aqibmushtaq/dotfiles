@@ -22,12 +22,12 @@ nnoremap <silent> ,t :CtrlP<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Arrow keys are FORBIDDEN!!! lol
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-for prefix in ['n', 'v']
-  for key in ['<Up>', '<Down>', '<Left>', '<Right>']
-    exe prefix . "noremap " . key . " <Nop>"
-  endfor
-endfor
-
+"for prefix in ['n', 'v']
+"  for key in ['<Up>', '<Down>', '<Left>', '<Right>']
+"    exe prefix . "noremap " . key . " <Nop>"
+"  endfor
+"endfor
+"
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " MULTIPURPOSE TAB KEY
 " Indent if we're at the beginning of a line. Else, do completion.
