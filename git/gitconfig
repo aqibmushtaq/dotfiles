@@ -127,3 +127,6 @@
   path = .gitconfig.user
 [credential]
 	helper = osxkeychain
+[user]
+	email = aqib@mushtaq.me
+	name = Aqib Mushtaq
